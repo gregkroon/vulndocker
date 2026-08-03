@@ -5,9 +5,10 @@
   "dependencies": {
     "sanitize-html": "1.18.0",
     "sqlite3": "2.1.0",
-    "oauth": "0.5.5",
-    "oauth2": "0.4.0",
+    "oauth": "0.9.15",
+    "oauth2": "0.0.1",
     "style-dictionary": "4.3.0",
     "nx": "23.0.0-beta.0"
   }
 }
+
