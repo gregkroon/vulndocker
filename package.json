@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "Intentionally vulnerable test image for zero-day-collector SBOM validation",
   "dependencies": {
-    "sanitize-html": "1.18.0",
+    "sanitize-html": "2.17.5",
     "oauth": "0.9.15",
-    "style-dictionary": "4.3.0",
+    "style-dictionary": "5.4.4",
     "nx": "23.0.0-beta.0"
   }
 }
