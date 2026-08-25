@@ -6,6 +6,7 @@
     "sanitize-html": "1.18.0",
     "oauth": "0.9.15",
     "style-dictionary": "4.3.0",
-    "nx": "23.0.0-beta.0"
+    "nx": "23.0.0-beta.0",
+    "jsonata": "2.0.0"
   }
 }
