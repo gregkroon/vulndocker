@@ -2,6 +2,9 @@
   "name": "vulnerable-test-app",
   "version": "1.0.0",
   "description": "Intentionally vulnerable test image for zero-day-collector SBOM validation",
+  "overrides": {
+    "axios": "1.15.1"
+  },
   "dependencies": {
     "sanitize-html": "1.18.0",
     "oauth": "0.9.15",
