@@ -1,13 +1,20 @@
 {
-  "name": "vulnerable-test-app",
-  "version": "1.0.0",
-  "description": "Intentionally vulnerable test image for zero-day-collector SBOM validation",
   "dependencies": {
-    "sanitize-html": "1.18.0",
-    "oauth": "0.9.15",
-    "style-dictionary": "4.3.0",
-    "nx": "23.0.0-beta.0",
     "jsonata": "2.0.0",
-    "lodash": "4.17.20"
-  }
+    "lodash": "4.17.20",
+    "nx": "23.0.0-beta.0",
+    "oauth": "0.9.15",
+    "sanitize-html": "^2.7.1",
+    "style-dictionary": "^5.4.4"
+  },
+  "description": "Intentionally vulnerable test image for zero-day-collector SBOM validation",
+  "name": "vulnerable-test-app",
+  "overrides": {
+    "axios": "1.15.1",
+    "brace-expansion": "5.0.7",
+    "form-data": "4.0.6",
+    "postcss": "8.5.12",
+    "tmp": "0.2.6"
+  },
+  "version": "1.0.0"
 }
