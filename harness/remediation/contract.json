@@ -3,7 +3,7 @@
     "package-lock.json",
     "package.json"
   ],
-  "baseSha": "853de62def79bd16bf694cf1b8c6362c3c24217f",
+  "baseSha": "499b8aea9a220cb65145d39a944321ecee7749e6",
   "conflictDomain": {
     "ecosystem": "npm",
     "id": "71a33e13f0396e52",
@@ -26,41 +26,26 @@
     "securityControlModificationForbidden": true,
     "testModificationForbidden": true
   },
-  "scanSha": "853de62def79bd16bf694cf1b8c6362c3c24217f",
+  "scanSha": "499b8aea9a220cb65145d39a944321ecee7749e6",
   "schema": "harness.remediation/contract.v1",
-  "stoExecutionId": "yDms5k2LThuoBtxAMbDAQA",
-  "stoTargetId": "KTGQYgNHZvuJSfW-jgKpLN",
+  "stoExecutionId": "XO0QDQhlQUaBxbOLpY9Kqg",
+  "stoTargetId": "zesKDGXGyOuOOwPL4jpCAv",
   "targetBranch": "main",
   "units": [
     {
       "candidateVersions": [
-        "1.15.2"
+        "1.16.0"
       ],
       "coordinate": {
         "normalisedName": "axios",
-        "purl": "pkg:npm/axios@1.15.1"
+        "purl": "pkg:npm/axios@1.15.2"
       },
-      "fromVersion": "1.15.1",
+      "fromVersion": "1.15.2",
       "issueIds": [
-        "b80fdtHH6VRNjI4Nbn_i3a"
+        "jalpGXP2z_IEsQTwRFppvQ"
       ],
-      "minimumFixedVersion": "1.15.2",
+      "minimumFixedVersion": "1.16.0",
       "package": "axios"
-    },
-    {
-      "candidateVersions": [
-        "0.2.7"
-      ],
-      "coordinate": {
-        "normalisedName": "tmp",
-        "purl": "pkg:npm/tmp@0.2.6"
-      },
-      "fromVersion": "0.2.6",
-      "issueIds": [
-        "bObo3O1tht5RAUBzvtCuAG"
-      ],
-      "minimumFixedVersion": "0.2.7",
-      "package": "tmp"
     }
   ]
 }
