@@ -5,7 +5,7 @@
     "nx": "23.0.0-beta.0",
     "oauth": "0.9.15",
     "sanitize-html": "1.18.0",
-    "style-dictionary": "4.3.0"
+    "style-dictionary": "^5.5.3"
   },
   "description": "Intentionally vulnerable test image for zero-day-collector SBOM validation",
   "name": "vulnerable-test-app",

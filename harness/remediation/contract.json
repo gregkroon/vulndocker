@@ -3,10 +3,10 @@
     "package-lock.json",
     "package.json"
   ],
-  "baseSha": "0610ccaa5fa170f1239ac6172f3e91bb5a1db65c",
+  "baseSha": "8dc1f4dd638933799c59a24af59e1d94092fa1ca",
   "conflictDomain": {
     "ecosystem": "npm",
-    "id": "71a33e13f0396e52",
+    "id": "71a33e13f0396e52-major-e3788afe",
     "lockArtifacts": [
       "package-lock.json"
     ],
@@ -17,7 +17,7 @@
     "maxChangedFiles": 10,
     "maxChangedLines": 300
   },
-  "remediationKey": "a30c4b433ce5908e17f9a813a927c97332e57e62a3e892ae5045db835f64bf8c",
+  "remediationKey": "4c2b2a2e78cb9256f4f5696cb4053ffb7441b641112c85557156b1ec54acf3b7",
   "repository": "https://github.com/gregkroon/vulndocker",
   "rules": {
     "lockfileTextPatchForbidden": true,
@@ -26,71 +26,26 @@
     "securityControlModificationForbidden": true,
     "testModificationForbidden": true
   },
-  "scanSha": "0610ccaa5fa170f1239ac6172f3e91bb5a1db65c",
+  "scanSha": "8dc1f4dd638933799c59a24af59e1d94092fa1ca",
   "schema": "harness.remediation/contract.v1",
-  "stoExecutionId": "lanIr3niQY2899V5X_oJ6A",
+  "stoExecutionId": "wALn-zDBSU-DASXztriqaA",
   "stoTargetId": "KTGQYgNHZvuJSfW-jgKpLN",
   "targetBranch": "main",
   "units": [
     {
       "candidateVersions": [
-        "2.2.2"
+        "5.5.3"
       ],
       "coordinate": {
-        "normalisedName": "jsonata",
-        "purl": "pkg:npm/jsonata@2.0.0"
+        "normalisedName": "style-dictionary",
+        "purl": "pkg:npm/style-dictionary@4.3.0"
       },
-      "fromVersion": "2.0.0",
+      "fromVersion": "4.3.0",
       "issueIds": [
-        "L_D8RYlBfp0aG7sjwPUxV0"
+        "BSHvR8kwmlS27IPaFpw3yX"
       ],
-      "minimumFixedVersion": "2.0.4",
-      "package": "jsonata"
-    },
-    {
-      "candidateVersions": [
-        "4.18.1"
-      ],
-      "coordinate": {
-        "normalisedName": "lodash",
-        "purl": "pkg:npm/lodash@4.17.20"
-      },
-      "fromVersion": "4.17.20",
-      "issueIds": [
-        "b0By7omy161PJkOnlOqcfH"
-      ],
-      "minimumFixedVersion": "4.18.0",
-      "package": "lodash"
-    },
-    {
-      "candidateVersions": [
-        "5.0.9"
-      ],
-      "coordinate": {
-        "normalisedName": "brace-expansion",
-        "purl": "pkg:npm/brace-expansion@5.0.2"
-      },
-      "fromVersion": "5.0.2",
-      "issueIds": [
-        "t2VDfjskbbZptYLcMEkQAL"
-      ],
-      "minimumFixedVersion": "5.0.7",
-      "package": "brace-expansion"
-    },
-    {
-      "candidateVersions": [
-        "4.0.6"
-      ],
-      "coordinate": {
-        "normalisedName": "form-data",
-        "purl": "pkg:npm/form-data@4.0.5"
-      },
-      "fromVersion": "4.0.5",
-      "issueIds": [
-        "qW-9gMwTYtzIltk3JvjyS7"
-      ],
-      "minimumFixedVersion": "4.0.6",
-      "package": "form-data"
+      "minimumFixedVersion": "5.4.4",
+      "package": "style-dictionary"
     }
   ]
 }
