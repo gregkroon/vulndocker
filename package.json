@@ -4,7 +4,7 @@
     "lodash": "^4.18.1",
     "nx": "23.0.0-beta.0",
     "oauth": "0.9.15",
-    "sanitize-html": "1.18.0",
+    "sanitize-html": "^2.17.7",
     "style-dictionary": "^5.5.3"
   },
   "description": "Intentionally vulnerable test image for zero-day-collector SBOM validation",
