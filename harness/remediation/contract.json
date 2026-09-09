@@ -3,10 +3,10 @@
     "package-lock.json",
     "package.json"
   ],
-  "baseSha": "8dc1f4dd638933799c59a24af59e1d94092fa1ca",
+  "baseSha": "144f7e670094bda48d8d9c2bf4698002664dcda2",
   "conflictDomain": {
     "ecosystem": "npm",
-    "id": "71a33e13f0396e52-major-e3788afe",
+    "id": "71a33e13f0396e52-major-f3419028",
     "lockArtifacts": [
       "package-lock.json"
     ],
@@ -17,7 +17,7 @@
     "maxChangedFiles": 10,
     "maxChangedLines": 300
   },
-  "remediationKey": "4c2b2a2e78cb9256f4f5696cb4053ffb7441b641112c85557156b1ec54acf3b7",
+  "remediationKey": "76c9ef00c319fd8e1bc79747607297932678d7ecb320c2055f3c31ad09420096",
   "repository": "https://github.com/gregkroon/vulndocker",
   "rules": {
     "lockfileTextPatchForbidden": true,
@@ -26,26 +26,26 @@
     "securityControlModificationForbidden": true,
     "testModificationForbidden": true
   },
-  "scanSha": "8dc1f4dd638933799c59a24af59e1d94092fa1ca",
+  "scanSha": "144f7e670094bda48d8d9c2bf4698002664dcda2",
   "schema": "harness.remediation/contract.v1",
-  "stoExecutionId": "wALn-zDBSU-DASXztriqaA",
-  "stoTargetId": "KTGQYgNHZvuJSfW-jgKpLN",
+  "stoExecutionId": "OkTLNcXwTLmSehzXojaUzA",
+  "stoTargetId": "zesKDGXGyOuOOwPL4jpCAv",
   "targetBranch": "main",
   "units": [
     {
       "candidateVersions": [
-        "5.5.3"
+        "2.17.7"
       ],
       "coordinate": {
-        "normalisedName": "style-dictionary",
-        "purl": "pkg:npm/style-dictionary@4.3.0"
+        "normalisedName": "sanitize-html",
+        "purl": "pkg:npm/sanitize-html@1.18.0"
       },
-      "fromVersion": "4.3.0",
+      "fromVersion": "1.18.0",
       "issueIds": [
-        "BSHvR8kwmlS27IPaFpw3yX"
+        "lLyzT7-M4vlMIXQYnEXkoJ"
       ],
-      "minimumFixedVersion": "5.4.4",
-      "package": "style-dictionary"
+      "minimumFixedVersion": "2.7.1",
+      "package": "sanitize-html"
     }
   ]
 }
